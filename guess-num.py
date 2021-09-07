@@ -1,6 +1,10 @@
 import random
+start = input('Please decide the initial value: ')
+end = input('Please enter one last value: ')
+start = int(start)
+end = int(end)
 
-r = random.randint(1, 100)
+r = random.randint(start, end)
 count = 0
 while True:
 	count += 1 #count = count + 1
